@@ -1,0 +1,77 @@
+
+
+<p align="center">
+    <a href="#readme">
+        <img alt="logo" width="50%" src="combined_images_with_text.png">
+    </a>
+</p>
+
+
+                         **Stock-Prediction-Models**,  杨新宇，岳中杨，张连润，林睿旸，陈书玄
+
+---
+
+
+
+###### 环境安装
+
+```
+conda create -n tensor python=3.6
+
+activate tensor
+
+conda install tensorflow==2.1  
+
+conda install keras==2.3.1
+
+conda install matplotlib
+
+conda install seaborn 
+
+conda install scikit-learn
+
+conda install tqdm
+```
+
+
+
+
+
+```
+cd RNN_01
+python a_get_data.py
+python rnn.py
+cd ../
+
+cd LSTM_02
+python a_get_data.py
+python lstm.py
+cd ../
+
+cd GRU_03
+python a_get_data.py
+python gru.py
+cd ../
+
+```
+
+
+
+you also can use below 
+```
+bash easy_bash.sh
+```
+
+---
+
+![alt text](RNN_01/01-rnn_measure.png) 
+![alt text](RNN_01/02-rnn_loss_compare.png) 
+![alt text](RNN_01/03-rnn_stock_prediction_plot.png)
+
+
+
+---
+
+![alt text](LSTM_02/01-LSTM_measure.png) 
+![alt text](LSTM_02/02-LSTM_loss_compare.png) 
+![alt text](LSTM_02/03-LSTM_stock_prediction_plot.png)
